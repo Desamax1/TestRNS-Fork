@@ -1,9 +1,11 @@
+//grupa-d
 #define LED_PIN GPIO_PIN_5
 #define LED_PIN     GPIO_PIN_5
 #define DEBOUNCE_MS 20
 #define GPIO_PIN GPIO_PIN3
 #define CONSTANT 33
-#define CONSTANT1 37
+#define CONSTANT1 36
+
 
 
 void main()
