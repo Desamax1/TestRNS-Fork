@@ -8,9 +8,11 @@
 
 void main()
 {
+  UART_Init();
   while(1)
   {
         LED_Toggle(LED_PIN);
+        UART_Print("LED toggle\r\n");
         Delay_ms(DEBOUNCE_MS);
 
   }
